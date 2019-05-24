@@ -20,3 +20,19 @@ login as Test1@email.com
 Open Chrome to https://localhost:44389/
 register user: Test2@email.com
 login as Test2@email.com
+
+Stop Debugging
+
+VSCode: ./ClientApp
+npm update
+npm audit
+//npm update lots of thingz
+
+npm i @aspnet/signalr@next
+//which installs v "^3.0.0-preview5-19227-01"
+npm i @aspnet/signalr-protocol-msgpack@next
+//which installs v "^3.0.0-preview5-19227-01"
+//BUT WANRS:
+//"npm i @aspnet/signalr-protocol-msgpack@3.0.0-preview5-19227-01 requires a peer of @aspnet/signalr@^1.0.0-preview3 but none is installed. You must install peer dependencies yourself."
+//which is NOT avilable on https://www.npmjs.com/package/@aspnet/signalr
+raised in Github: https://github.com/aspnet/AspNetCore/issues/10307
